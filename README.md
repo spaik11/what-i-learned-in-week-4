@@ -17,3 +17,21 @@ console.log(isHungry || hasFridge && hasMoney);
 * `!==` (**non-identity** operator) returns true if the operands **are not equal and/or not of the same type**.
 * `>, < or <= >=` 
   * i.e. `console.log(3 <= 5)`
+
+
+### FizzBuzz
+```
+function fizzy(num) {
+  if(num % 3 === 0 && num % 5 === 0) {
+    return 'FizzBuzz';
+  } else if(num % 3 === 0) {
+    return 'Fizz';
+  } else if(num % 5 === 0) {
+    return 'Buzz';
+  } else {
+    return num;
+  }
+}
+```
+I enjoyed working in a group to come up with the solution to this exercise. We we're able to discuss the different possibilities by moving around the lines of code and using other test cases.
+
