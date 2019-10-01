@@ -9,7 +9,7 @@ const hasFridge = false;
 console.log(isHungry || hasFridge && hasMoney);
 ```
 * `&&` is a binary operator
-* The computer will execute && first and then ||
+* **The computer will execute && first and then ||.**
 * `===` (**strict** equality) will check if the both the ##type## and the ##value## are the same.
   * i.e. `5 === 5` *true*
 * `==` (**loose** equality) also performs a **type coercion**. Type coercion means that two values are compared only after attempting to convert them into a common type.
