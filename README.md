@@ -14,4 +14,6 @@ console.log(isHungry || hasFridge && hasMoney);
   * i.e. `5 === 5` *true*
 * `==` (**loose** equality) also performs a **type coercion**. Type coercion means that two values are compared only after attempting to convert them into a common type.
   * i.e. `'5' == 5` *true*
-* `!==` (**inequality** operator) returns true if the operands are not equal. If the two operands are not of the same type, JavaScript attempts to convert the operands to an appropriate type for the comparison.
+* `!==` (**non-identity** operator) returns true if the operands **are not equal and/or not of the same type**.
+* `>, < or <= >=` 
+  * i.e. `console.log(3 <= 5)`
