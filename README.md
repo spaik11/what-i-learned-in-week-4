@@ -80,4 +80,3 @@ result = (condition) ? 'something' : 'somethingelse';
 ### Bill Split Calculator
 This one would take in an overall bill, a tip percentage, and how many ways to split it, and calculates how much each party owes.
 * The challenges were to improve the user experience.
-  * 
