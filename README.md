@@ -62,4 +62,22 @@ function fizzy(num) {
 }
 ```
 
+### Ternary Operator
+The conditional ternary operator in JavaScript assigns a value to a variable based on some condition and is the only JavaScript operator that takes three operands.
 
+The ternary operator is a substitute for an if statement in which both the if and else clauses assign different values to the same field, like so:
+```
+if (condition)
+result = 'something';
+else
+result = 'somethingelse'; 
+```
+The ternary operator shortens this if/else statement into a single statement:
+```
+result = (condition) ? 'something' : 'somethingelse'; 
+```
+
+### Bill Split Calculator
+This one would take in an overall bill, a tip percentage, and how many ways to split it, and calculates how much each party owes.
+* The challenges were to improve the user experience.
+  * 
